@@ -1,7 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
+#include "add.h"
 
 int main(){
     printf("this my calculator\n");
 
-    return;
+    double x = 0;
+    double y = 5;
+    printf("%lf + %lf = %lf",x,y,myAddFcn(x,y));
+
+    
 }
