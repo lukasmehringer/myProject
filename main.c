@@ -7,6 +7,4 @@ int main(){
     double x = 0;
     double y = 5;
     printf("%lf + %lf = %lf",x,y,myAddFcn(x,y));
-
-    
 }
